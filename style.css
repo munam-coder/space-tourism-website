@@ -1,0 +1,43 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* always good for sizing */
+}
+
+.background {
+    background-image: url("./starter-code/assets/home/background-home-desktop.jpg");
+    background-size: cover;       /* Cover the container */
+    background-position: center;  /* Center the image */
+    background-repeat: no-repeat; /* Don't repeat */
+
+    height: 100vh;     /* Full viewport height */
+    width: 100vw;      /* Full viewport width */
+    position: relative; /* So children can be positioned */
+}
+
+.leftlogo {
+    
+    position: absolute;
+    top: 10vh;
+    left: 5vw;
+    width: 56px;
+    height: auto;
+}
+.href{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10vh;
+}
+
+.href ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    height: 65px;
+    width: 540px;
+   background-color: rgba(255, 255, 255, 0.02);
+}
+
+
