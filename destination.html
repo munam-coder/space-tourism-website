@@ -1,40 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Destination page</title>
     <link rel="stylesheet" href="style.css">
+   <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
 </head>
+
 <body>
     <main>
         <div class="background">
-           
-             <nav>
-            <div class="leftimage">
-                <img src="./starter-code/assets/shared/logo.svg" alt="" class="leftlogo">
-                <div class="line">
-                    
-                </div>
-            </div>
-            <div class="rightnav">
-                <div class="href">
-                    <ul class="destinationul">
-                        <li><a href="main.html">00 Home</a></li>
-                        <li><a href="destination.html"> 01 Destination</a></li>
-                        <li><a href="crew.html"> 02 Crew</a></li>
-                        <li><a href="technology.html"> 03 Technology</a></li>
-                    </ul>
-                </div>
-            </div>
 
-        </nav>
-        <div class="container">
-            <div class="leftdestination">
-                <h2><span class="01">01</span> PICK YOUR DESTINATION</h2>
+            <nav>
+                <div class="leftimage">
+                    <img src="./starter-code/assets/shared/logo.svg" alt="" class="leftlogo">
+                    <div class="line">
+
+                    </div>
+                </div>
+                <div class="rightnav">
+                    <div class="href">
+                        <ul class="destinationul">
+                            <li><a href="main.html">00 Home</a></li>
+                            <li><a href="destination.html"> 01 Destination</a></li>
+                            <li><a href="crew.html"> 02 Crew</a></li>
+                            <li><a href="technology.html"> 03 Technology</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </nav>
+            <div class="container">
+                <div class="leftdestination">
+                    <h2><span class="one">01</span> PICK YOUR DESTINATION</h2>
+                    <div class="leftdestinationimage">
+                        <img src="./starter-code/assets/destination/image-mars.png" alt="" class="mars">
+                    </div>
+                </div>
+                <div class="rightdestinationinfo">
+                    <div class="tabs">
+                        <ul>
+                            <button class="tab-button active" onclick="setActiveTab(this, 'mars')">Mars</button>
+                            <button class="tab-button" onclick="setActiveTab(this, 'moon')">Moon</button>
+                            <button class="tab-button" onclick="setActiveTab(this, 'europa')">Europa</button>
+                            <button class="tab-button" onclick="setActiveTab(this, 'titan')">Titan</button>
+                        </ul>
+                    </div>
+                    <h1>MARS</h1>
+                    <p>Don’t forget to pack your hiking boots. You’ll need them <br> to tackle Olympus Mons,
+                        the tallest planetary mountain <br>  in our solar system. It’s two and a half times
+                        the size <br> of Everest!
+                    </p>
+                    <div class="lineinfo">
+                    </div>
+                    <div class="rightdistance">
+                        <div class="avg">
+                            <p class="avgp"> Avg. distance</p>
+                            <h3>225 mil. km</h3>
+                        </div>
+                        <div class="est">
+                            <p class="estp"> Est. travel time</p>
+                            <h3> 9 months</h3>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
         </div>
     </main>
 </body>
+
 </html>
