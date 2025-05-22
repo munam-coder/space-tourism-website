@@ -5,25 +5,8 @@
     /* always good for sizing */
 }
 
-.backgrounddestionation{
+.backgrounddestionation {
     background-image: url("./starter-code/assets/home/background-home-desktop.jpg");
-     background-size: cover;
-    /* Cover the container */
-    background-position: center;
-    /* Center the image */
-    background-repeat: no-repeat;
-    /* Don't repeat */
-
-    height: 100vh;
-    /* Full viewport height */
-    width: 100vw;
-    /* Full viewport width */
-    position: relative;
-    /* So children can be positioned */
-}
-.background {
-     background-image: url("./starter-code/assets/destination/background-destination-desktop.jpg");
-   
     background-size: cover;
     /* Cover the container */
     background-position: center;
@@ -39,11 +22,29 @@
     /* So children can be positioned */
 }
 
+.background {
+    background-image: url("./starter-code/assets/destination/background-destination-desktop.jpg");
+
+    background-size: cover;
+    /* Cover the container */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Don't repeat */
+
+    height: 100%;
+    /* Full viewport height */
+    width: 100%;
+    /* Full viewport width */
+    position: relative;
+    /* So children can be positioned */
+}
+
 
 .leftlogo {
 
     position: absolute;
-    top: 40px;
+    top: 20px;
     left: 70px;
     width: 56px;
     height: auto;
@@ -54,7 +55,7 @@
     width: 550px;
     background-color: rgba(68 82 106 / 60%);
     position: absolute;
-    margin-top: 73px;
+    margin-top: 54px;
     margin-left: 180px;
     z-index: 10;
 }
@@ -62,7 +63,7 @@
 .href {
     display: flex;
     justify-content: flex-end;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-left: 10px;
 }
 
@@ -85,24 +86,27 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.href .destinationul{
-display: flex;
+.href .destinationul {
+    display: flex;
     align-items: center;
     gap: 50px;
     list-style: none;
     padding-left: 61px;
     height: 65px;
     width: 666px;
-   background: linear-gradient(to right, #0b0d17, #121622);
+    background: linear-gradient(to right, #191c2a, #2a2e3a);
+    ;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
-.container{
+
+.container {
     display: flex;
     gap: 370px;
 
 }
+
 .right {
     margin-top: 140px;
     margin-left: 100px;
@@ -123,13 +127,14 @@ display: flex;
     font-size: 75px;
     margin-top: 14px;
 }
+
 .right p {
     font-family: "Montserrat";
     color: rgb(154 159 185);
     margin-top: 8px;
 }
 
-.circleleft{
+.circleleft {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,9 +148,108 @@ display: flex;
     letter-spacing: 2px;
 }
 
-.leftdestination h2{
-    
+.leftdestination {
+    margin-top: 65px;
+    margin-left: 181px;
+    color: hsla(220, 9%, 60%, 1);
+}
+
+.one {
+    color: hsla(231, 14%, 18%, 1);
+}
+
+.mars {
+    margin-top: 12vh;
+    margin-left: 9vw;
+    height: 55vh;
+    width: auto;
+}
+
+.tabs ul {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    margin-top: 16vh;
+    transform: translateX(-190px);
+    list-style: none;
+}
+
+.tabs button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: hsla(226, 29%, 89%, 1);
+    position: relative;
+    cursor: pointer;
+}
+
+.tab-button::after {
+    content: '';
+    position: absolute;
+    bottom: -13px;
+    /* ← this controls how far below the text the underline is */
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: white;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    transform-origin: center;
+}
+
+.tab-button.active::after {
+    transform: scaleX(1);
 }
 
 
 
+.lineinfo {
+    height: 2px;
+    width: 27vw;
+    background-color: hsla(224, 19%, 11%, 1);
+    margin-top: 25px;
+    transform: translateX(-190px);
+}
+
+.rightdestinationinfo h1 {
+    color: white;
+    margin-top: 8vh;
+    font-size: 96px;
+    font-family: 'Roboto';
+    font-weight: 350;
+    transform: translateX(-190px)
+}
+
+.rightdestinationinfo p {
+    margin-top: 10px;
+    color: hsla(233, 9%, 36%, 1);
+    transform: translateX(-190px)
+}
+
+.rightdistance {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.avg p {
+    font-size: 18px;
+}
+
+.avg h3 {
+    transform: translateX(-190px);
+    font-size: 27px;
+    color: hsla(220, 18%, 73%, 1);
+    margin-top: 6px;
+}
+
+.est p {
+    font-size: 18px;
+}
+
+.est h3 {
+    transform: translateX(-190px);
+    font-size: 27px;
+    color: hsla(220, 18%, 73%, 1);
+    margin-top: 6px;
+}
