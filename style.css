@@ -148,6 +148,8 @@
     letter-spacing: 2px;
 }
 
+/* destination section */
+
 .leftdestination {
     margin-top: 65px;
     margin-left: 181px;
@@ -155,7 +157,7 @@
 }
 
 .one {
-    color: hsla(231, 14%, 18%, 1);
+    color: rgb(90, 93, 105);
 }
 
 .mars {
@@ -174,7 +176,7 @@
     list-style: none;
 }
 
-.tabs button {
+.tabs li {
     background: none;
     border: none;
     font-size: 18px;
@@ -252,4 +254,79 @@
     font-size: 27px;
     color: hsla(220, 18%, 73%, 1);
     margin-top: 6px;
+}
+
+.destination-section {
+    display: none;
+}
+
+.destination-section.active {
+    display: block;
+}
+
+/* crew section */
+
+
+.backgroundcrew {
+    background-image: url("./starter-code/assets/crew/background-crew-desktop.jpg");
+    background-size: cover;
+    /* Cover the container */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Don't repeat */
+
+    height: 100vh;
+    /* Full viewport height */
+    width: 100vw;
+    /* Full viewport width */
+    position: relative;
+    /* So children can be positioned */
+}
+
+.href ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    padding-left: 61px;
+    height: 65px;
+    width: 666px;
+    background: linear-gradient(to right, rgb(56 61 80 / 60%), rgb(25 31 42 / 60%), rgb(50 55 82 / 60%));
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    /* frosted glass effect */
+    -webkit-backdrop-filter: blur(10px);
+    /* for Safari */
+}
+
+.leftcrewinfo .meet {
+    margin-top: 50px;
+    margin-left: 181px;
+}
+
+.crewinfo {
+    margin-top: 70px;
+    margin-left: 181px;
+}
+
+.crewinfo h2 {
+    font-size: 35px;
+    color: hsla(216, 6%, 46%, 1);
+}
+
+.crewinfo h1 {
+    font-size: 55px;
+    color: hsla(217, 87%, 97%, 1);
+}
+
+.crewinfo p {
+    margin-top: 17px;
+    font-size: 20px;
+    color: hsla(223, 11%, 67%, 1);
+    line-height: 30px;
+}
+
+.meet{
+    color: hsla(217, 87%, 97%, 1) ;
 }
