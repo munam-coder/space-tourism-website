@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Destination page</title>
     <link rel="stylesheet" href="style.css">
-   <style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-</style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
 </head>
 
 <body>
     <main>
+
         <div class="background">
 
             <nav>
@@ -34,37 +35,219 @@
                 </div>
 
             </nav>
-            <div class="container">
-                <div class="leftdestination">
-                    <h2><span class="one">01</span> PICK YOUR DESTINATION</h2>
-                    <div class="leftdestinationimage">
-                        <img src="./starter-code/assets/destination/image-mars.png" alt="" class="mars">
+            <div id="mars" class="destination-section active">
+                <div class="container">
+                    <div class="leftdestination">
+                        <h2><span class="one">01</span> PICK YOUR DESTINATION</h2>
+                        <div class="leftdestinationimage">
+                            <img src="./starter-code/assets/destination/image-mars.png" alt="" class="mars">
+                        </div>
+                    </div>
+                    <div class="rightdestinationinfo">
+                        <div class="tabs">
+                            <ul>
+                                <li class="tab active" data-target="moon">Moon</li>
+                                <li class="tab" data-target="mars">Mars</li>
+                                <li class="tab" data-target="europa">Europa</li>
+                                <li class="tab" data-target="titan">Titan</li>
+                            </ul>
+
+                        </div>
+                        <h1>MARS</h1>
+                        <p>Don’t forget to pack your hiking boots. You’ll need them <br> to tackle Olympus Mons,
+                            the tallest planetary mountain <br> in our solar system. It’s two and a half times
+                            the size <br> of Everest!
+                        </p>
+                        <div class="lineinfo">
+                        </div>
+                        <div class="rightdistance">
+                            <div class="avg">
+                                <p class="avgp"> Avg. distance</p>
+                                <h3>225 mil. km</h3>
+                            </div>
+                            <div class="est">
+                                <p class="estp"> Est. travel time</p>
+                                <h3> 9 months</h3>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="rightdestinationinfo">
-                    <div class="tabs">
-                        <ul>
-                            <button class="tab-button active" onclick="setActiveTab(this, 'mars')">Mars</button>
-                            <button class="tab-button" onclick="setActiveTab(this, 'moon')">Moon</button>
-                            <button class="tab-button" onclick="setActiveTab(this, 'europa')">Europa</button>
-                            <button class="tab-button" onclick="setActiveTab(this, 'titan')">Titan</button>
+            </div>
+            <!-- moon section -->
+            <nav>
+                <div class="leftimage">
+                    <img src="./starter-code/assets/shared/logo.svg" alt="" class="leftlogo">
+                    <div class="line">
+
+                    </div>
+                </div>
+                <div class="rightnav">
+                    <div class="href">
+                        <ul class="destinationul">
+                            <li><a href="main.html">00 Home</a></li>
+                            <li><a href="destination.html"> 01 Destination</a></li>
+                            <li><a href="crew.html"> 02 Crew</a></li>
+                            <li><a href="technology.html"> 03 Technology</a></li>
                         </ul>
                     </div>
-                    <h1>MARS</h1>
-                    <p>Don’t forget to pack your hiking boots. You’ll need them <br> to tackle Olympus Mons,
-                        the tallest planetary mountain <br>  in our solar system. It’s two and a half times
-                        the size <br> of Everest!
-                    </p>
-                    <div class="lineinfo">
-                    </div>
-                    <div class="rightdistance">
-                        <div class="avg">
-                            <p class="avgp"> Avg. distance</p>
-                            <h3>225 mil. km</h3>
+                </div>
+
+            </nav>
+            <div id="moon" class="destination-section active">
+                <div class="container">
+                    <div class="leftdestination">
+                        <h2><span class="one">01</span> PICK YOUR DESTINATION</h2>
+                        <div class="leftdestinationimage">
+                            <img src="./starter-code/assets/destination/image-moon.png" alt="" class="mars">
                         </div>
-                        <div class="est">
-                            <p class="estp"> Est. travel time</p>
-                            <h3> 9 months</h3>
+                    </div>
+                    <div class="rightdestinationinfo">
+                        <div class="tabs">
+                            <ul>
+                                <li class="tab active" data-target="moon">Moon</li>
+                                <li class="tab" data-target="mars">Mars</li>
+                                <li class="tab" data-target="europa">Europa</li>
+                                <li class="tab" data-target="titan">Titan</li>
+                            </ul>
+
+                        </div>
+                        <h1>Moon</h1>
+                        <p>
+                            See our planet as you’ve never seen it before. A perfect relaxing trip away to help
+                            regain perspective and come back refreshed. While you’re there, take in some history
+                            by visiting the Luna 2 and Apollo 11 landing sites.
+                        </p>
+                        <div class="lineinfo">
+                        </div>
+                        <div class="rightdistance">
+                            <div class="avg">
+                                <p class="avgp"> Avg. distance</p>
+                                <h3> 384,400 km</h3>
+                            </div>
+                            <div class="est">
+                                <p class="estp"> Est. travel time</p>
+                                <h3>3 days</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- europa section -->
+            <nav>
+                <div class="leftimage">
+                    <img src="./starter-code/assets/shared/logo.svg" alt="" class="leftlogo">
+                    <div class="line">
+
+                    </div>
+                </div>
+                <div class="rightnav">
+                    <div class="href">
+                        <ul class="destinationul">
+                            <li><a href="main.html">00 Home</a></li>
+                            <li><a href="destination.html"> 01 Destination</a></li>
+                            <li><a href="crew.html"> 02 Crew</a></li>
+                            <li><a href="technology.html"> 03 Technology</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </nav>
+            <div id="europa" class="destination-section active">
+                <div class="container">
+                    <div class="leftdestination">
+                        <h2><span class="one">01</span> PICK YOUR DESTINATION</h2>
+                        <div class="leftdestinationimage">
+                            <img src="./starter-code/assets/destination/image-europa.png" alt="" class="mars">
+                        </div>
+                    </div>
+                    <div class="rightdestinationinfo">
+                        <div class="tabs">
+                            <ul>
+                                <li class="tab active" data-target="moon">Moon</li>
+                                <li class="tab" data-target="mars">Mars</li>
+                                <li class="tab" data-target="europa">Europa</li>
+                                <li class="tab" data-target="titan">Titan</li>
+                            </ul>
+
+                        </div>
+                        <h1>Europa</h1>
+                        <p>
+                            The smallest of the four Galilean moons orbiting Jupiter, Europa is a
+                            winter lover’s dream. With an icy surface, it’s perfect for a bit of
+                            ice skating, curling, hockey, or simple relaxation in your snug
+                            wintery cabin.
+                        </p>
+                        <div class="lineinfo">
+                        </div>
+                        <div class="rightdistance">
+                            <div class="avg">
+                                <p class="avgp"> Avg. distance</p>
+                                <h3> 628 mil. km</h3>
+                            </div>
+                            <div class="est">
+                                <p class="estp"> Est. travel time</p>
+                                <h3>3 years</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- titat section -->
+            <nav>
+                <div class="leftimage">
+                    <img src="./starter-code/assets/shared/logo.svg" alt="" class="leftlogo">
+                    <div class="line">
+
+                    </div>
+                </div>
+                <div class="rightnav">
+                    <div class="href">
+                        <ul class="destinationul">
+                            <li><a href="main.html">00 Home</a></li>
+                            <li><a href="destination.html"> 01 Destination</a></li>
+                            <li><a href="crew.html"> 02 Crew</a></li>
+                            <li><a href="technology.html"> 03 Technology</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </nav>
+            <div id="titan" class="destination-section active">
+                <div class="container">
+                    <div class="leftdestination">
+                        <h2><span class="one">01</span> PICK YOUR DESTINATION</h2>
+                        <div class="leftdestinationimage">
+                            <img src="./starter-code/assets/destination/image-titan.png" alt="" class="mars">
+                        </div>
+                    </div>
+                    <div class="rightdestinationinfo">
+                        <div class="tabs">
+                            <ul>
+                                <li class="tab active" data-target="moon">Moon</li>
+                                <li class="tab" data-target="mars">Mars</li>
+                                <li class="tab" data-target="europa">Europa</li>
+                                <li class="tab" data-target="titan">Titan</li>
+                            </ul>
+
+                        </div>
+                        <h1>Titan</h1>
+                        <p>
+
+                            The only moon known to have a dense atmosphere other than Earth, Titan
+                            is a home away from home (just a few hundred degrees colder!). As a
+                            bonus, you get striking views of the Rings of Saturn.
+                        </p>
+                        <div class="lineinfo">
+                        </div>
+                        <div class="rightdistance">
+                            <div class="avg">
+                                <p class="avgp"> Avg. distance</p>
+                                <h3>  1.6 bil. km</h3>
+                            </div>
+                            <div class="est">
+                                <p class="estp"> Est. travel time</p>
+                                <h3>7 years</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
