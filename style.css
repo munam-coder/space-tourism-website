@@ -300,33 +300,208 @@
     /* for Safari */
 }
 
+.containercrew {
+    display: flex;
+    gap: 80px;
+}
+
 .leftcrewinfo .meet {
     margin-top: 50px;
     margin-left: 181px;
 }
 
 .crewinfo {
-    margin-top: 70px;
+    margin-top: 60px;
     margin-left: 181px;
 }
 
 .crewinfo h2 {
-    font-size: 35px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 28px;
     color: hsla(216, 6%, 46%, 1);
 }
 
 .crewinfo h1 {
-    font-size: 55px;
+    font-family: 'Outfit';
+    font-weight: 300;
+    margin-top: 10px;
+    font-size: 34px;
     color: hsla(217, 87%, 97%, 1);
 }
 
 .crewinfo p {
-    margin-top: 17px;
-    font-size: 20px;
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+    margin-top: 21px;
+    font-size: 19px;
     color: hsla(223, 11%, 67%, 1);
-    line-height: 30px;
+    line-height: 28px;
 }
 
-.meet{
-    color: hsla(217, 87%, 97%, 1) ;
+.meet {
+    color: hsla(217, 87%, 97%, 1);
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.dot {
+    margin-top: 30px;
+    height: 12px;
+    width: 12px;
+    border: none;
+    background-color: #ffffff50;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 50%;
+    transform: translateX(180px)
+}
+
+.dot.active {
+    background-color: white;
+}
+
+.crew {
+    position: absolute;
+    bottom: 0;
+    height: 400px;
+    width: 400px;
+}
+
+/* technology section */
+
+.backgroundtechnology {
+    background-image: url("./starter-code/assets/technology/background-technology-desktop.jpg");
+    background-size: cover;
+    /* Cover the container */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Don't repeat */
+
+    height: 100vh;
+    /* Full viewport height */
+    width: 100vw;
+    /* Full viewport width */
+    position: relative;
+    /* So children can be positioned */
+}
+
+.containertechnology{
+    display: flex;
+    gap: 20px;
+}
+
+.hreftech {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.tech {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    padding-left: 61px;
+    height: 65px;
+    width: 666px;
+    background-color: hsla(226, 25%, 10%, 1);
+}
+
+.hreftech a {
+    color: white;
+    text-decoration: none;
+}
+
+.lefttechonfo {
+    margin-top: 72px;
+    margin-left: 180px;
+    font-family: 'Roboto Condensed';
+}
+
+.lefttechonfo h2 {
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: hsla(220, 5%, 66%, 1);
+}
+
+.btntech {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 80px;
+}
+
+.circle {
+    height: 60px;
+    width: 60px;
+    background: none;
+    border-radius: 50%;
+    border: 1px solid rgb(56, 60, 71);
+    color: hsla(224, 11%, 80%, 1);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.circle .active {
+    background-color: white;
+}
+
+.techinfo {
+    display: flex;
+    gap: 65px;
+}
+
+.techpara {
+    margin-top: 90px;
+}
+
+.techpara h4 {
+    color: hsla(220, 5%, 66%, 1);
+    font-family: 'Roboto Condensed';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.techpara h1 {
+    font-size: 45px;
+    font-family: 'Roboto Condensed';
+    color: hsla(224, 21%, 91%, 1);
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 10px;
+
+}
+
+.techpara p {
+    margin-top: 10px;
+    font-family: 'Roboto';
+    color: hsla(220, 5%, 66%, 1);
+    line-height: 28px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.techrightinfo{
+    display: flex;
+    
+}
+.imagetech{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+    height: 400px;
+    width: 350px;
+  transform: translateX(-11px);
+    
 }
