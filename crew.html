@@ -1,51 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crew</title>
-   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
 </head>
+
 <body>
     <main>
         <div class="backgroundcrew">
-             <nav>
-            <div class="leftimage">
-                <img src="./starter-code/assets/shared/logo.svg" alt="" class="leftlogo">
-                <div class="line">
-                    
-                </div>
-            </div>
-            <div class="rightnav">
-                <div class="href">
-                    <ul>
-                        <li><a href="main.html">00 Home</a></li>
-                        <li><a href="destination.html"> 01 Destination</a></li>
-                        <li><a href="crew.html"> 02 Crew</a></li>
-                        <li><a href="technology.html"> 03 Technology</a></li>
-                    </ul>
-                </div>
-            </div>
+            <nav>
+                <div class="leftimage">
+                    <img src="./starter-code/assets/shared/logo.svg" alt="" class="leftlogo">
+                    <div class="line">
 
-        </nav>
-        <div class="containercrew">
-            <div class="leftcrewinfo">
-                <h2 class="meet"><span class="one">02</span> MEET YOUR CREW</h2>
+                    </div>
+                </div>
+                <div class="rightnav">
+                    <div class="href">
+                        <ul>
+                            <li><a href="main.html">00 Home</a></li>
+                            <li><a href="destination.html"> 01 Destination</a></li>
+                            <li><a href="crew.html"> 02 Crew</a></li>
+                            <li><a href="technology.html"> 03 Technology</a></li>
+                        </ul>
+                    </div>
+                </div>
 
-                <div class="crewinfo">
-                    <h2>Flight Engineer</h2>
-                    <h1>Anousheh Ansari</h1>
-                    <p> Anousheh Ansari is an Iranian American engineer and co-<br>founder of Prodea Systems.  
-  Ansari was the fourth self- <br>funded space tourist,  the first selffunded woman to 
-  fly <br>  to the ISS, and the first Iranian in space.  </p>
+            </nav>
+            <div id="flight engineer" class="crew active">
+                <div class="containercrew">
+                    <div class="leftcrewinfo">
+                        <h2 class="meet"><span class="one">02</span> MEET YOUR CREW</h2>
+
+                        <div class="crewinfo">
+                            <h2>FLIGHT ENGINEER</h2>
+                            <h1>ANOUSHEH ANSARI</h1>
+                            <p> Anousheh Ansari is an Iranian American engineer and co-<br>founder of Prodea Systems.
+                                Ansari was the fourth self- <br>funded space tourist, the first selffunded woman to
+                                fly <br> to the ISS, and the first Iranian in space. </p>
+                        </div>
+                        <div class="btn">
+                            <button class="dot active" aria-label="Flight engineer"></button>
+                            <button class="dot" aria-label="Mission specialist"></button>
+                            <button class="dot" aria-label="Pilot"></button>
+                            <button class="dot" aria-label="Commander"></button>
+                        </div>
+                    </div>
+
+                    <div class="crewimage">
+                        <img src="./starter-code/assets/crew/image-anousheh-ansari.png" alt="" class="crew">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- crew commander -->
+
+        <div class="backgroundcrew">
+            <nav>
+                <div class="leftimage">
+                    <img src="./starter-code/assets/shared/logo.svg" alt="" class="leftlogo">
+                    <div class="line">
+
+                    </div>
+                </div>
+                <div class="rightnav">
+                    <div class="href">
+                        <ul>
+                            <li><a href="main.html">00 Home</a></li>
+                            <li><a href="destination.html"> 01 Destination</a></li>
+                            <li><a href="crew.html"> 02 Crew</a></li>
+                            <li><a href="technology.html"> 03 Technology</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </nav>
+            <div id="commander" class="crew-section active">
+                <div class="containercrew">
+                    <div class="leftcrewinfo">
+                        <h2 class="meet"><span class="one">02</span> MEET YOUR CREW</h2>
+
+                        <div class="crewinfo">
+                            <h2>
+                                Commander</h2>
+                            <h1> Douglas Hurley
+                            </h1>
+                            <p>
+                                Douglas Gerald Hurley is an American engineer, former Marine Corps pilot <br>
+                                and former NASA astronaut. He launched into space for the third time as <br>
+                                commander of Crew Dragon Demo-2. </p>
+                        </div>
+                        <div class="btn">
+                            <button class="dot active" aria-label="Flight engineer"></button>
+                            <button class="dot" aria-label="Mission specialist"></button>
+                            <button class="dot" aria-label="Pilot"></button>
+                            <button class="dot" aria-label="Commander"></button>
+                        </div>
+                    </div>
+
+                    <div class="crewimage">
+                        <img src="./starter-code/assets/crew/image-douglas-hurley crew commander.png" alt=""
+                            class="crew">
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="btn">
-        
-        </div>
-        </div>
+        <!-- crew specialist -->
 
+        <div class="backgroundcrew">
+            <nav>
+                <div class="leftimage">
+                    <img src="./starter-code/assets/shared/logo.svg" alt="" class="leftlogo">
+                    <div class="line">
+
+                    </div>
+                </div>
+                <div class="rightnav">
+                    <div class="href">
+                        <ul>
+                            <li><a href="main.html">00 Home</a></li>
+                            <li><a href="destination.html"> 01 Destination</a></li>
+                            <li><a href="crew.html"> 02 Crew</a></li>
+                            <li><a href="technology.html"> 03 Technology</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </nav>
+            <div id="misson specealist" class="crew-section active">
+                <div class="containercrew">
+                    <div class="leftcrewinfo">
+                        <h2 class="meet"><span class="one">02</span> MEET YOUR CREW</h2>
+
+                        <div class="crewinfo">
+                            <h2>
+                                Mission Specialist</h2>
+                            <h1> Mark Shuttleworth
+
+                            </h1>
+                            <p>
+                                Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind <br>
+                                the Linux-based Ubuntu operating system. Shuttleworth became the first South <br>
+                                African to travel to space as a space tourist. </p>
+                        </div>
+                        <div class="btn">
+                            <button class="dot active" aria-label="Flight engineer"></button>
+                            <button class="dot" aria-label="Mission specialist"></button>
+                            <button class="dot" aria-label="Pilot"></button>
+                            <button class="dot" aria-label="Commander"></button>
+                        </div>
+                    </div>
+
+                    <div class="crewimage">
+                        <img src="./starter-code/assets/crew/image-mark-shuttleworth crew specealist.png" alt=""
+                            class="crew">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- pilot -->
+
+        <div class="backgroundcrew">
+            <nav>
+                <div class="leftimage">
+                    <img src="./starter-code/assets/shared/logo.svg" alt="" class="leftlogo">
+                    <div class="line">
+
+                    </div>
+                </div>
+                <div class="rightnav">
+                    <div class="href">
+                        <ul>
+                            <li><a href="main.html">00 Home</a></li>
+                            <li><a href="destination.html"> 01 Destination</a></li>
+                            <li><a href="crew.html"> 02 Crew</a></li>
+                            <li><a href="technology.html"> 03 Technology</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </nav>
+            <div id="Pilot" class="crew-section active">
+                <div class="containercrew">
+                    <div class="leftcrewinfo">
+                        <h2 class="meet"><span class="one">02</span> MEET YOUR CREW</h2>
+
+                        <div class="crewinfo">
+                            <h2>
+                                Pilot</h2>
+                            <h1> Victor Glover
+
+                            </h1>
+                            <p>
+
+                                Pilot on the first operational flight of the SpaceX Crew Dragon to the <br>
+                                International Space Station. Glover is a commander in the U.S. Navy where <br>
+                                he pilots an F/A-18.He was a crew member of Expedition 64, and served as a <br>
+                                station systems flight engineer. </p>
+                        </div>
+                        <div class="btn">
+                            <button class="dot active" aria-label="Flight engineer"></button>
+                            <button class="dot" aria-label="Mission specialist"></button>
+                            <button class="dot" aria-label="Pilot"></button>
+                            <button class="dot" aria-label="Commander"></button>
+                        </div>
+                    </div>
+
+                    <div class="crewimage">
+                        <img src="./starter-code/assets/crew/image-victor-glover crew piolot.png" alt="" class="crew">
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
+
 </html>
