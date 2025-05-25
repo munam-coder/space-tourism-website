@@ -148,6 +148,26 @@
     letter-spacing: 2px;
 }
 
+.href ul li {
+  position: relative;
+}
+
+.href ul li.active::before {
+  content: "";
+  position: absolute;
+  top: 35px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: white;
+}
+
+.href ul li::before {
+  transition: all 0.3s ease;
+}
+
+ 
+
 /* destination section */
 
 .leftdestination {
@@ -266,242 +286,231 @@
 
 /* crew section */
 
-
 .backgroundcrew {
-    background-image: url("./starter-code/assets/crew/background-crew-desktop.jpg");
-    background-size: cover;
-    /* Cover the container */
-    background-position: center;
-    /* Center the image */
-    background-repeat: no-repeat;
-    /* Don't repeat */
-
-    height: 100vh;
-    /* Full viewport height */
-    width: 100vw;
-    /* Full viewport width */
-    position: relative;
-    /* So children can be positioned */
+  background-image: url("./starter-code/assets/crew/background-crew-desktop.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
 }
 
 .href ul {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    list-style: none;
-    padding-left: 61px;
-    height: 65px;
-    width: 666px;
-    background: linear-gradient(to right, rgb(56 61 80 / 60%), rgb(25 31 42 / 60%), rgb(50 55 82 / 60%));
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    /* frosted glass effect */
-    -webkit-backdrop-filter: blur(10px);
-    /* for Safari */
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+  padding-left: 61px;
+  height: 65px;
+  width: 666px;
+  background: linear-gradient(to right, rgb(56 61 80 / 60%), rgb(25 31 42 / 60%), rgb(50 55 82 / 60%));
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .containercrew {
-    display: flex;
-    gap: 80px;
+  display: flex;
+  gap: 80px;
 }
 
 .leftcrewinfo .meet {
-    margin-top: 50px;
-    margin-left: 181px;
+  margin-top: 50px;
+  margin-left: 181px;
 }
 
 .crewinfo {
-    margin-top: 60px;
-    margin-left: 181px;
+  margin-top: 60px;
+  margin-left: 181px;
 }
 
 .crewinfo h2 {
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 28px;
-    color: hsla(216, 6%, 46%, 1);
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 28px;
+  color: hsla(216, 6%, 46%, 1);
 }
 
 .crewinfo h1 {
-    font-family: 'Outfit';
-    font-weight: 300;
-    margin-top: 10px;
-    font-size: 34px;
-    color: hsla(217, 87%, 97%, 1);
+  font-family: 'Outfit';
+  font-weight: 300;
+  margin-top: 10px;
+  font-size: 34px;
+  color: hsla(217, 87%, 97%, 1);
 }
 
 .crewinfo p {
-    font-family: 'Roboto Condensed';
-    font-weight: 300;
-    margin-top: 21px;
-    font-size: 19px;
-    color: hsla(223, 11%, 67%, 1);
-    line-height: 28px;
+  font-family: 'Roboto Condensed';
+  font-weight: 300;
+  margin-top: 21px;
+  font-size: 19px;
+  color: hsla(223, 11%, 67%, 1);
+  line-height: 28px;
 }
 
 .meet {
-    color: hsla(217, 87%, 97%, 1);
+  color: hsla(217, 87%, 97%, 1);
 }
 
 .btn {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: 181px;
 }
 
 .dot {
-    margin-top: 30px;
-    height: 12px;
-    width: 12px;
-    border: none;
-    background-color: #ffffff50;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    border-radius: 50%;
-    transform: translateX(180px)
+  margin-top: 30px;
+  height: 12px;
+  width: 12px;
+  border: none;
+  background-color: #ffffff50;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 50%;
 }
 
 .dot.active {
-    background-color: white;
+  background-color: white;
 }
 
 .crew {
-    position: absolute;
-    bottom: 0;
-    height: 400px;
-    width: 400px;
+  position: absolute;
+  bottom: 0;
+  height: 400px;
+  width: 400px;
 }
+
+.crew-section {
+  display: none;
+}
+
+.crew-section.active {
+  display: block;
+}
+
 
 /* technology section */
 
 .backgroundtechnology {
-    background-image: url("./starter-code/assets/technology/background-technology-desktop.jpg");
-    background-size: cover;
-    /* Cover the container */
-    background-position: center;
-    /* Center the image */
-    background-repeat: no-repeat;
-    /* Don't repeat */
-
-    height: 100vh;
-    /* Full viewport height */
-    width: 100vw;
-    /* Full viewport width */
-    position: relative;
-    /* So children can be positioned */
+  background-image: url("./starter-code/assets/technology/background-technology-desktop.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
 }
 
-.containertechnology{
-    display: flex;
-    gap: 20px;
+.containertechnology {
+  display: flex;
+  gap: 20px;
 }
 
 .hreftech {
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 20px;
-    padding-left: 10px;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+  padding-left: 10px;
 }
 
 .tech {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    list-style: none;
-    padding-left: 61px;
-    height: 65px;
-    width: 666px;
-    background-color: hsla(226, 25%, 10%, 1);
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+  padding-left: 61px;
+  height: 65px;
+  width: 666px;
+  background-color: hsla(226, 25%, 10%, 1);
 }
 
 .hreftech a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .lefttechonfo {
-    margin-top: 72px;
-    margin-left: 180px;
-    font-family: 'Roboto Condensed';
+  margin-top: 72px;
+  margin-left: 180px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .lefttechonfo h2 {
-    font-family: "Roboto Condensed";
-    font-weight: 400;
-    letter-spacing: 3px;
-    color: hsla(220, 5%, 66%, 1);
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: hsla(220, 5%, 66%, 1);
 }
 
 .btntech {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 80px;
 }
 
 .circle {
-    height: 60px;
-    width: 60px;
-    background: none;
-    border-radius: 50%;
-    border: 1px solid rgb(56, 60, 71);
-    color: hsla(224, 11%, 80%, 1);
-    font-size: 20px;
-    cursor: pointer;
+  height: 60px;
+  width: 60px;
+  background: none;
+  border-radius: 50%;
+  border: 1px solid rgb(56, 60, 71);
+  color: hsla(224, 11%, 80%, 1);
+  font-size: 20px;
+  cursor: pointer;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
-.circle .active {
-    background-color: white;
+.circle.active {
+  background-color: white;
+  color: black;
 }
 
 .techinfo {
-    display: flex;
-    gap: 65px;
+  display: flex;
+  gap: 65px;
 }
 
 .techpara {
-    margin-top: 90px;
+  margin-top: 90px;
 }
 
 .techpara h4 {
-    color: hsla(220, 5%, 66%, 1);
-    font-family: 'Roboto Condensed';
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-size: 10px;
+  color: hsla(220, 5%, 66%, 1);
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 10px;
 }
 
 .techpara h1 {
-    font-size: 45px;
-    font-family: 'Roboto Condensed';
-    color: hsla(224, 21%, 91%, 1);
-    font-weight: 400;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    margin-top: 10px;
-
+  font-size: 45px;
+  color: hsla(224, 21%, 91%, 1);
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-top: 10px;
 }
 
 .techpara p {
-    margin-top: 10px;
-    font-family: 'Roboto';
-    color: hsla(220, 5%, 66%, 1);
-    line-height: 28px;
-    font-size: 15px;
-    font-weight: 600;
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: hsla(220, 5%, 66%, 1);
+  line-height: 28px;
+  font-size: 15px;
+  font-weight: 600;
 }
 
-
-.techrightinfo{
-    display: flex;
-    
+.techrightinfo {
+  display: flex;
 }
-.imagetech{
+
+.imagetech {
   position: absolute;
   bottom: 0;
   right: 0;
-    height: 400px;
-    width: 350px;
+  height: 400px;
+  width: 350px;
   transform: translateX(-11px);
-    
 }
