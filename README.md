@@ -2,12 +2,9 @@
 
 A multi-page space tourism website built with HTML, CSS, and JavaScript. This project is inspired by the [Frontend Mentor](https://www.frontendmentor.io/) challenge and aims to replicate a sleek, modern space exploration website across four engaging pages: Home, Destination, Crew, and Technology.
 
-![Preview](./starter-code/assets/preview.jpg)
+![Preview](./starter-code/preview.jpg)
 
 ---
-
-
-
 
 
 ## 🧭 Pages Included
