@@ -26,9 +26,7 @@
 - **Crew (`crew.html`)**: Meet and interact with the crew.
 - **Technology (`technology.html`)**: Detailed technology and vehicle information.
 
-## 🖼️ Screenshots
-
-> Add your images to `/assets/images/` and reference them below. Example:
+## 🖼️ Screenshot
 
 - ![Home Page](![preview](https://github.com/user-attachments/assets/a37577d8-f207-41f5-a52a-422bcd993843)
 )
