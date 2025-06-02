@@ -4,7 +4,8 @@
 
 ---
 
-![Website Preview](./assets/images/website-preview.png)
+![Website Preview](![preview](https://github.com/user-attachments/assets/0c749c74-5d12-4eed-af47-88a430fe818f)
+)
 
 ---
 
@@ -29,8 +30,10 @@
 
 > Add your images to `/assets/images/` and reference them below. Example:
 
-- ![Home Page](./assets/images/home-preview.png)
-- ![Destination Page](./assets/images/destination-preview.png)
+- ![Home Page](![preview](https://github.com/user-attachments/assets/a37577d8-f207-41f5-a52a-422bcd993843)
+)
+- ![Destination Page](![Destination](https://github.com/user-attachments/assets/792eea98-8781-4781-821d-68be66013eef)
+)
 
 ## 🛠️ Tech Stack
 
