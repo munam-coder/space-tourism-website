@@ -4,7 +4,8 @@
 
 ---
 
-![Website Preview](![preview](https://github.com/user-attachments/assets/0c749c74-5d12-4eed-af47-88a430fe818f)
+![Website Preview](![preview](https://github.com/user-attachments/assets/bc0e7c05-5276-4049-8271-b2b8e8573459)
+
 )
 
 ---
@@ -28,11 +29,16 @@
 
 ## 🖼️ Screenshot
 
-- ![Home Page](![preview](https://github.com/user-attachments/assets/a37577d8-f207-41f5-a52a-422bcd993843)
+- ![Home Page](![preview](https://github.com/user-attachments/assets/e2562af2-d9fb-4666-b038-ce4c17beedd8)
+
 )
-- ![Destination Page](![Destination](https://github.com/user-attachments/assets/792eea98-8781-4781-821d-68be66013eef)
+- ![Destination Page](![Destination](https://github.com/user-attachments/assets/3062b6fc-1afa-42da-8a74-dc7c2bf1362b)
+
+![Crew page]([Crew](![Crew](https://github.com/user-attachments/assets/4e485bd0-a2d4-453f-8951-209beac60071)
 )
 
+![Technolgy page]([technolgy]![Technology](https://github.com/user-attachments/assets/80559dcf-5c99-4e26-a1d2-fdd86e1342d0)
+)
 ## 🛠️ Tech Stack
 
 - HTML5
