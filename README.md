@@ -3,8 +3,9 @@
 ✨ A modern multi-page space tourism website built with **HTML**, **CSS**, and **JavaScript**. Inspired by [Frontend Mentor](https://www.frontendmentor.io/) challenges, this project delivers a sleek and interactive user experience for aspiring space travelers!
 
 ---
-![Website Preview](![preview](https://github.com/user-attachments/assets/5294f6c7-76be-466b-a300-0839c4f90e32)
-)
+![Website Preview](https://github.com/user-attachments/assets/44c0bffb-b621-4978-a339-a2a518581cac)
+
+
 
 ---
 
@@ -27,17 +28,16 @@
 
 ## 🖼️ Screenshot
 
-![Home](![preview](https://github.com/user-attachments/assets/b436cf3d-353c-4074-8eb1-8ee32d234fa9)
-)
-)
-![Destination page](![Destination](https://github.com/user-attachments/assets/0fee823c-6bbc-4b73-8c61-eee87530fba9)
-)
+![Home](https://github.com/user-attachments/assets/078babf7-894a-4040-a2bf-1ad9ee799997)
 
-![Crew Page](![Crew](https://github.com/user-attachments/assets/3e47caed-b46b-42dd-898a-a6329270af3f)
-)
 
-![Technolgy page](![Technology](https://github.com/user-attachments/assets/d8a38a03-1ede-4036-a0bf-6f6a78f1eb47)
-)
+![Destination page](https://github.com/user-attachments/assets/ff803ec8-9acf-4673-8f3c-48013309db66)
+
+![Crew Page](https://github.com/user-attachments/assets/393410a4-3d11-4443-9352-9168a61e898c)
+
+![Technolgy page](https://github.com/user-attachments/assets/6d5bfe4b-9e2b-4c74-a19a-15cf7e51142c)
+
+
 ## 🛠️ Tech Stack
 
 - HTML5
