@@ -9,7 +9,6 @@
 
 ---
 
-## 🔗 [Live Demo](#) <!-- Add your live site URL here -->
 
 ## 🌟 Features
 
